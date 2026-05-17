@@ -15,6 +15,19 @@ function App() {
     <div>
       <Navbar cartCount={cart.length} />
 
+      <img
+  className="banner"
+  src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=1400"
+  alt=""
+/>
+
+<div className="categories">
+  <button>Electronics</button>
+  <button>Fashion</button>
+  <button>Mobiles</button>
+  <button>Home</button>
+</div>
+
       <div className="main-container">
         <div className="products-container">
           {products.map((product) => (
